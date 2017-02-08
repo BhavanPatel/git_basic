@@ -1,6 +1,26 @@
 
 # Git Basics #
 
+####  Git Config  ####
+## ##
+This snippet will help you to set config of git.
+---
+Locally set username and email
+```bash
+$ git config user.name "bhavanpatel"
+```
+```bash
+$ git config user.email "bhavan7@yahoo.com"
+```
+---
+Globally set username and email
+```bash
+$ git config --global user.name "bhavanpatel"
+```
+```bash
+$ git config --global user.email "bhavan7@yahoo.com"
+```
+---
 
 ####  Git Ignore  ####
 ## ##
