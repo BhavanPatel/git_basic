@@ -3,9 +3,8 @@
 
 ####  Git Config  ####
 ## ##
-
 This snippet will help you to set config of git.
----
+___
 Locally set username and email
 ```bash
 $ git config user.name "bhavanpatel"
