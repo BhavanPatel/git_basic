@@ -86,13 +86,13 @@ $ git reset --hard HEAD~1
 find the commit id of the commit you want to back up to from <code>git log</code>, copy _sha1-commit-id_ and then do this
 
 ```bash
-git reset --hard <copied-sha1-commit-id>
+$ git reset --hard <copied-sha1-commit-id>
 ```
 
 If you already pushed it, you will need to do a force push to get rid of it...
 
 ```bash
-git push origin HEAD --force
+$ git push origin HEAD --force
 ```
 
 
@@ -103,32 +103,32 @@ This snippet will help you to remove all old commits from repo and make one sing
 
 This will create one branch named: <code>latest_branch</code>
 ```bash
-git checkout --orphan latest_branch
+$ git checkout --orphan latest_branch
 ```
 
 Add all the files
 ```bash
-git add -A
+$ git add -A
 ```
 
 Commit the changes
 ```bash
-git commit -am "commit message"
+$ git commit -am "commit message"
 ```
 
 Delete the branch <code>master</code>
 ```bash
-git branch -D master
+$ git branch -D master
 ```
 
 Rename the current branch to master
 ```bash
-git branch -m master
+$ git branch -m master
 ```
 
 Finally, force update your repository
 ```bash
-git push -f origin master
+$ git push -f origin master
 ```
 
 
