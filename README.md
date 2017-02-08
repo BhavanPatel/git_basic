@@ -3,6 +3,7 @@
 
 ####  Git Config  ####
 ## ##
+
 This snippet will help you to set config of git.
 ---
 Locally set username and email
